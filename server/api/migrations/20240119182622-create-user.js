@@ -21,7 +21,7 @@ module.exports = {
       profile_id: {
         allowNull: false,
         type: Sequelize.INTEGER,
-        references: { model: 'Role', key: 'id' }
+        references: { model: 'Roles', key: 'id' }
       },
       createdAt: {
         allowNull: false,
